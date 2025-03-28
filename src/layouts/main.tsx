@@ -1,7 +1,7 @@
-import React from 'react'
+import { ReactNode } from 'react';
 
-export default function MainLayout() {
+export default function MainLayout({ children }: { children: ReactNode }) {
   return (
-    <div>main</div>
-  )
+    <main className='w-full h-full bg-red-500'>{children}</main>
+  );
 }
