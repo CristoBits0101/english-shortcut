@@ -1,6 +1,5 @@
 // Dependencies
 import Link from 'next/link'
-import React from 'react'
 
 // Typing
 interface NavbarLinkComponentProps {
