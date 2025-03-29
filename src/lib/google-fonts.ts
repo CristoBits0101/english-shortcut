@@ -1,7 +1,7 @@
 // Fonts
 import { Dancing_Script } from 'next/font/google'
 import { Figtree } from 'next/font/google'
-import { Delius } from 'next/font/google'
+import { Edu_TAS_Beginner } from 'next/font/google'
 
 // Settings
 export const dancingScript = Dancing_Script({
@@ -13,11 +13,11 @@ export const dancingScript = Dancing_Script({
 export const figtree = Figtree({
   display: 'swap',
   subsets: ['latin'],
-  weight: ['400', '500', '700']
+  weight: ['300', '400', '500', '700']
 })
 
-export const delius = Delius({
+export const eduTasBeginner = Edu_TAS_Beginner({
   display: 'swap',
   subsets: ['latin'],
-  weight: ['400']
+  weight: ['400', '500', '600']
 })

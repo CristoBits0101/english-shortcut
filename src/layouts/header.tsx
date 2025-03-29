@@ -21,95 +21,95 @@ export default function HeaderLayout() {
             <section className='flex flex-col gap-8'>
 
                 {/* Phonetics */}
-                <NavbarArticle title='Fonética'>
+                <NavbarArticle title='Phonetics'>
                     <div className='flex flex-col gap-2'>
-                        <NavbarDetails subtitle='Sonidos'>
+                        <NavbarDetails subtitle='Sounds'>
                             <NavbarMenu>
                                 <NavbarLink href='' mt text='' />
                                 <NavbarLink href='' mb text='' />
                             </NavbarMenu>
                         </NavbarDetails>
-                        <NavbarDetails subtitle='Tablas'>
+                        <NavbarDetails subtitle='Charts'>
                             <NavbarMenu>
-                                <NavbarLink href='' mt text='Abecedario' />
+                                <NavbarLink href='' mt text='Alphabet' />
                                 <NavbarLink href='' text='IPA' />
                             </NavbarMenu>
                         </NavbarDetails>
                     </div>
                 </NavbarArticle>
 
-                {/* Vocabulario */}
-                <NavbarArticle title='Vocabulario imprescindible'>
+                {/* Vocabulary */}
+                <NavbarArticle title='Essential vocabulary'>
                     <div className='flex flex-col gap-2'>
                         <NavbarDetails subtitle='A1'>
                             <NavbarMenu>
-                                <NavbarLink href='' mt text='Adjetivos' />
-                                <NavbarLink href='' text='Adverbios' />
-                                <NavbarLink href='' text='Determinantes' />
-                                <NavbarLink href='' text='Preposiciones' />
-                                <NavbarLink href='' text='Sustantivos' />
-                                <NavbarLink href='' mb text='Verbos' />
+                                <NavbarLink href='' mt text='Adjectives' />
+                                <NavbarLink href='' text='Adverbs' />
+                                <NavbarLink href='' text='Determiners' />
+                                <NavbarLink href='' text='Prepositions' />
+                                <NavbarLink href='' text='Nouns' />
+                                <NavbarLink href='' mb text='Verbs' />
                             </NavbarMenu>
                         </NavbarDetails>
                         <NavbarDetails subtitle='A2'>
                             <NavbarMenu>
-                                <NavbarLink href='' mt text='Adjetivos' />
-                                <NavbarLink href='' text='Adverbios' />
-                                <NavbarLink href='' text='Determinantes' />
-                                <NavbarLink href='' text='Preposiciones' />
-                                <NavbarLink href='' text='Sustantivos' />
-                                <NavbarLink href='' text='Verbos' />
+                                <NavbarLink href='' mt text='Adjectives' />
+                                <NavbarLink href='' text='Adverbs' />
+                                <NavbarLink href='' text='Determiners' />
+                                <NavbarLink href='' text='Prepositions' />
+                                <NavbarLink href='' text='Nouns' />
+                                <NavbarLink href='' text='Verbs' />
                             </NavbarMenu>
                         </NavbarDetails>
                     </div>
                 </NavbarArticle>
 
                 {/* Verb tenses */}
-                <NavbarArticle title='Tiempos verbales'>
+                <NavbarArticle title='Verb tenses'>
                     <div className='flex flex-col gap-2'>
-                        <NavbarDetails subtitle='Presente'>
+                        <NavbarDetails subtitle='Present'>
                             <NavbarMenu>
-                                <NavbarLink href='' mt text='Afirmativo' />
-                                <NavbarLink href='' text='Negativo' />
-                                <NavbarLink href='' mb text='Interrogativo' />
+                                <NavbarLink href='' mt text='Affirmative' />
+                                <NavbarLink href='' text='Negative' />
+                                <NavbarLink href='' mb text='Interrogative' />
                             </NavbarMenu>
                         </NavbarDetails>
-                        <NavbarDetails subtitle='Pasado'>
+                        <NavbarDetails subtitle='Past'>
                             <NavbarMenu>
-                                <NavbarLink href='' mt text='Afirmativo' />
-                                <NavbarLink href='' text='Negativo' />
-                                <NavbarLink href='' mb text='Interrogativo' />
+                                <NavbarLink href='' mt text='Affirmative' />
+                                <NavbarLink href='' text='Negative' />
+                                <NavbarLink href='' mb text='Interrogative' />
                             </NavbarMenu>
                         </NavbarDetails>
-                        <NavbarDetails subtitle='Futuro'>
+                        <NavbarDetails subtitle='Future'>
                             <NavbarMenu>
-                                <NavbarLink href='' mt text='Afirmativo' />
-                                <NavbarLink href='' text='Negativo' />
-                                <NavbarLink href='' text='Interrogativo' />
+                                <NavbarLink href='' mt text='Affirmative' />
+                                <NavbarLink href='' text='Negative' />
+                                <NavbarLink href='' text='Interrogative' />
                             </NavbarMenu>
                         </NavbarDetails>
                     </div>
                 </NavbarArticle>
 
                 {/* Everyday phrases */}
-                <NavbarArticle title='Frases cotidianas'>
+                <NavbarArticle title='Everyday phrases'>
                     <div className='flex flex-col gap-2'>
-                        <NavbarDetails subtitle='Cortesía'>
+                        <NavbarDetails subtitle='Politeness'>
                             <NavbarMenu>
-                                <NavbarLink href='' mt text='Saludos' />
-                                <NavbarLink href='' mb text='Despedidas' />
+                                <NavbarLink href='' mt text='Greetings' />
+                                <NavbarLink href='' mb text='Farewells' />
                             </NavbarMenu>
                         </NavbarDetails>
-                        <NavbarDetails subtitle='Expresiones'>
+                        <NavbarDetails subtitle='Expressions'>
                             <NavbarMenu>
-                                <NavbarLink href='' mt text='Acuerdo' />
-                                <NavbarLink href='' mb text='Desacuerdo' />
+                                <NavbarLink href='' mt text='Agreement' />
+                                <NavbarLink href='' mb text='Disagreement' />
                             </NavbarMenu>
                         </NavbarDetails>
-                        <NavbarDetails subtitle='Preguntas'>
+                        <NavbarDetails subtitle='Questions'>
                             <NavbarMenu>
-                                <NavbarLink href='' mt text='Ayuda' />
-                                <NavbarLink href='' text='Emociones' />
+                                <NavbarLink href='' mt text='Help' />
+                                <NavbarLink href='' text='Emotions' />
                             </NavbarMenu>
                         </NavbarDetails>
                     </div>
