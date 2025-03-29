@@ -26,13 +26,13 @@ export default function HeaderLayout() {
                         <NavbarDetails subtitle='Sonidos'>
                             <NavbarMenu>
                                 <NavbarLink href='' mt text='' />
-                                <NavbarLink href='' mt={false} text='' />
+                                <NavbarLink href='' mb text='' />
                             </NavbarMenu>
                         </NavbarDetails>
                         <NavbarDetails subtitle='Tablas'>
                             <NavbarMenu>
                                 <NavbarLink href='' mt text='Abecedario' />
-                                <NavbarLink href='' mt={false} text='IPA' />
+                                <NavbarLink href='' text='IPA' />
                             </NavbarMenu>
                         </NavbarDetails>
                     </div>
@@ -40,16 +40,28 @@ export default function HeaderLayout() {
 
                 {/* Vocabulario */}
                 <NavbarArticle title='Vocabulario imprescindible'>
-                    <NavbarDetails subtitle='Imprescindible'>
-                        <NavbarMenu>
-                            <NavbarLink href='' mt text='Adjetivos' />
-                            <NavbarLink href='' mt={false} text='Adverbios' />
-                            <NavbarLink href='' mt={false} text='Determinantes' />
-                            <NavbarLink href='' mt={false} text='Preposiciones' />
-                            <NavbarLink href='' mt={false} text='Sustantivos' />
-                            <NavbarLink href='' mt={false} text='Verbos' />
-                        </NavbarMenu>
-                    </NavbarDetails>
+                    <div className='flex flex-col gap-2'>
+                        <NavbarDetails subtitle='A1'>
+                            <NavbarMenu>
+                                <NavbarLink href='' mt text='Adjetivos' />
+                                <NavbarLink href='' text='Adverbios' />
+                                <NavbarLink href='' text='Determinantes' />
+                                <NavbarLink href='' text='Preposiciones' />
+                                <NavbarLink href='' text='Sustantivos' />
+                                <NavbarLink href='' mb text='Verbos' />
+                            </NavbarMenu>
+                        </NavbarDetails>
+                        <NavbarDetails subtitle='A2'>
+                            <NavbarMenu>
+                                <NavbarLink href='' mt text='Adjetivos' />
+                                <NavbarLink href='' text='Adverbios' />
+                                <NavbarLink href='' text='Determinantes' />
+                                <NavbarLink href='' text='Preposiciones' />
+                                <NavbarLink href='' text='Sustantivos' />
+                                <NavbarLink href='' text='Verbos' />
+                            </NavbarMenu>
+                        </NavbarDetails>
+                    </div>
                 </NavbarArticle>
 
                 {/* Verb tenses */}
@@ -58,22 +70,22 @@ export default function HeaderLayout() {
                         <NavbarDetails subtitle='Presente'>
                             <NavbarMenu>
                                 <NavbarLink href='' mt text='Afirmativo' />
-                                <NavbarLink href='' mt={false} text='Negativo' />
-                                <NavbarLink href='' mt={false} text='Interrogativo' />
+                                <NavbarLink href='' text='Negativo' />
+                                <NavbarLink href='' mb text='Interrogativo' />
                             </NavbarMenu>
                         </NavbarDetails>
                         <NavbarDetails subtitle='Pasado'>
                             <NavbarMenu>
                                 <NavbarLink href='' mt text='Afirmativo' />
-                                <NavbarLink href='' mt={false} text='Negativo' />
-                                <NavbarLink href='' mt={false} text='Interrogativo' />
+                                <NavbarLink href='' text='Negativo' />
+                                <NavbarLink href='' mb text='Interrogativo' />
                             </NavbarMenu>
                         </NavbarDetails>
                         <NavbarDetails subtitle='Futuro'>
                             <NavbarMenu>
                                 <NavbarLink href='' mt text='Afirmativo' />
-                                <NavbarLink href='' mt={false} text='Negativo' />
-                                <NavbarLink href='' mt={false} text='Interrogativo' />
+                                <NavbarLink href='' text='Negativo' />
+                                <NavbarLink href='' text='Interrogativo' />
                             </NavbarMenu>
                         </NavbarDetails>
                     </div>
@@ -85,19 +97,19 @@ export default function HeaderLayout() {
                         <NavbarDetails subtitle='Cortesía'>
                             <NavbarMenu>
                                 <NavbarLink href='' mt text='Saludos' />
-                                <NavbarLink href='' mt={false} text='Despedidas' />
+                                <NavbarLink href='' mb text='Despedidas' />
                             </NavbarMenu>
                         </NavbarDetails>
                         <NavbarDetails subtitle='Expresiones'>
                             <NavbarMenu>
                                 <NavbarLink href='' mt text='Acuerdo' />
-                                <NavbarLink href='' mt={false} text='Desacuerdo' />
+                                <NavbarLink href='' mb text='Desacuerdo' />
                             </NavbarMenu>
                         </NavbarDetails>
                         <NavbarDetails subtitle='Preguntas'>
                             <NavbarMenu>
                                 <NavbarLink href='' mt text='Ayuda' />
-                                <NavbarLink href='' mt={false} text='Emociones' />
+                                <NavbarLink href='' text='Emociones' />
                             </NavbarMenu>
                         </NavbarDetails>
                     </div>
