@@ -2,13 +2,13 @@
 import Link from 'next/link'
 import React from 'react'
 
-// Props interface
-interface NavbarItemComponentProps {
+// Typing
+interface NavbarLinkComponentProps {
     href: string;
     text: string;
 }
 
-export default function NavbarItemComponent({ text, href }: NavbarItemComponentProps) {
+export default function NavbarLinkComponent({ text, href }: NavbarLinkComponentProps) {
     return (
         <li>
             <Link href={href}>{text}</Link>

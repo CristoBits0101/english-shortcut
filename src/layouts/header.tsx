@@ -15,11 +15,20 @@ export default function HeaderLayout() {
             </h1>
             <div className='flex flex-col gap-4'>
                 <h2 className='font-medium uppercase'>Fonética</h2>
-                <Navbar />
+                <Navbar>
+                    <>
+                    </>
+                </Navbar>
                 <h2 className='font-medium uppercase'>Vocabulario</h2>
-                <Navbar />
+                <Navbar>
+                    <>
+                    </>
+                </Navbar>
                 <h2 className='font-medium uppercase'>Tiempos Verbales</h2>
-                <Navbar />
+                <Navbar>
+                    <>
+                    </>
+                </Navbar>
             </div>
         </header>
     )
