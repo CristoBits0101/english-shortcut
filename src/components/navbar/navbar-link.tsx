@@ -5,12 +5,13 @@ import React from 'react'
 // Typing
 interface NavbarLinkComponentProps {
     href: string;
+    mt: boolean;
     text: string;
 }
 
-export default function NavbarLinkComponent({ text, href }: NavbarLinkComponentProps) {
+export default function NavbarLinkComponent({ href, mt, text }: NavbarLinkComponentProps) {
     return (
-        <li className='list-disc'>
+        <li className={`list-disc ${mt ? 'mt-4' : ''}`}>
             <Link className='font-light' href={href}>{text}</Link>
         </li>
     );
