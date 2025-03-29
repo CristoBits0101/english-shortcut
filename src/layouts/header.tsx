@@ -11,8 +11,9 @@ export default function HeaderLayout() {
     return (
         <header className='h-full p-4 flex flex-col gap-8'>
             {/* Title */}
-            <h1 className={`${dancingScript.className} text-4xl font-medium`}>
-                English Shortcut
+            <h1 className={`flex gap-2 ${dancingScript.className} text-4xl font-medium`}>
+                <span className='text-[#C8102E]'>English</span>
+                <span className='text-[#00247D]'>Shortcut</span>
             </h1>
             {/* Navigation */}
             <section className='flex flex-col gap-4'>
