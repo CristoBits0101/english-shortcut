@@ -18,7 +18,12 @@ export default function HeaderLayout() {
             <section className='flex flex-col gap-4'>
                 {/* Phonetics */}
                 <NavbarArticle title='Fonética'>
-                    <NavbarLink href='' mt={false} text='Alfabeto' />
+                    <NavbarDetails subtitle='Sonidos'>
+                        <NavbarMenu>
+                            <NavbarLink href='' mt text='' />
+                            <NavbarLink href='' mt={false} text='' />
+                        </NavbarMenu>
+                    </NavbarDetails>
                 </NavbarArticle>
                 {/* Vocabulario */}
                 <NavbarArticle title='Vocabulario'>
