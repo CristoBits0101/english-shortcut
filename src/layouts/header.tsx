@@ -1,5 +1,5 @@
 // Components
-import Navbar from '@/components/navbar'
+import Navbar from '@/components/navbar-menu'
 
 // Dependencies
 import React from 'react'
@@ -14,11 +14,11 @@ export default function HeaderLayout() {
                 English Shortcut
             </h1>
             <div className='flex flex-col gap-4'>
-                <h2>Phonetics</h2>
+                <h2 className='font-medium'>Fonética</h2>
                 <Navbar />
-                <h2>Vocabulary</h2>
+                <h2 className='font-medium'>Vocabulario</h2>
                 <Navbar />
-                <h2>Verb Tenses</h2>
+                <h2 className='font-medium'>Tiempos Verbales</h2>
                 <Navbar />
             </div>
         </header>

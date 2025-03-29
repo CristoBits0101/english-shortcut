@@ -1,10 +1,6 @@
 // Dependencies
 import React from 'react'
 
-interface NavbarComponentProps {
-
-}
-
 export default function NavbarComponent() {
     return (
         <nav>
