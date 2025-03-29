@@ -1,6 +1,6 @@
 // Components
+import NavbarArticle from '@/components/navbar/navbar-article'
 import NavbarLink from '@/components/navbar/navbar-link'
-import NavbarMenu from '@/components/navbar/navbar-menu'
 
 // Dependencies
 import React from 'react'
@@ -16,51 +16,19 @@ export default function HeaderLayout() {
                 English Shortcut
             </h1>
             {/* Navigation */}
-            <div className='flex flex-col gap-4'>
-                <h2 className='font-medium uppercase'>Fonética</h2>
-                <NavbarMenu>
-                    <>
-                        <NavbarLink href='' mt={false} text='Alfabeto fonético' />
-                    </>
-                </NavbarMenu>
-                <h2 className='font-medium uppercase'>Vocabulario</h2>
-                <NavbarMenu>
-                    <>
-                        <NavbarLink href='' mt={false} text='Alfabeto fonético' />
-                    </>
-                </NavbarMenu>
-                <h2 className='font-medium uppercase'>Tiempos Verbales</h2>
-                <details className='pl-4'>
-                    <summary>Presente</summary>
-                    <NavbarMenu>
-                        <>
-                            <NavbarLink href='' mt text='Afirmativo' />
-                            <NavbarLink href='' mt={false} text='Negativo' />
-                            <NavbarLink href='' mt={false} text='Interrogativo' />
-                        </>
-                    </NavbarMenu>
-                </details>
-                <details className='pl-4'>
-                    <summary>Pasado</summary>
-                    <NavbarMenu>
-                        <>
-                            <NavbarLink href='' mt text='Afirmativo' />
-                            <NavbarLink href='' mt={false} text='Negativo' />
-                            <NavbarLink href='' mt={false} text='Interrogativo' />
-                        </>
-                    </NavbarMenu>
-                </details>
-                <details className='pl-4'>
-                    <summary>Futuro</summary>
-                    <NavbarMenu>
-                        <>
-                            <NavbarLink href='' mt text='Afirmativo' />
-                            <NavbarLink href='' mt={false} text='Negativo' />
-                            <NavbarLink href='' mt={false} text='Interrogativo' />
-                        </>
-                    </NavbarMenu>
-                </details>
-            </div>
+            <section className='flex flex-col gap-4'>
+                <NavbarArticle title='Fonética'>
+                    <NavbarLink href='' mt={false} text='Alfabeto fonético' />
+                </NavbarArticle>
+                <NavbarArticle title='Vocabulario'>
+                    <NavbarLink href='' mt={false} text='Alfabeto fonético' />
+                </NavbarArticle>
+                <NavbarArticle title='Tiempos verbales'>
+                    <NavbarLink href='' mt={false} text='Presente' />
+                    <NavbarLink href='' mt={false} text='Pasado' />
+                    <NavbarLink href='' mt={false} text='Futuro' />
+                </NavbarArticle>
+            </section>
         </header>
     )
 }
