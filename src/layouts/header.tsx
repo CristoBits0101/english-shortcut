@@ -1,5 +1,5 @@
 // Components
-import Navbar from '@/components/navbar-menu'
+import Navbar from '@/components/navbar/navbar-menu'
 
 // Dependencies
 import React from 'react'
