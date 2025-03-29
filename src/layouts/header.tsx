@@ -13,7 +13,14 @@ export default function HeaderLayout() {
             <h1 className={`${dancingScript.className} text-4xl font-medium`}>
                 English Shortcut
             </h1>
-            <Navbar />
+            <div className='flex flex-col gap-4'>
+                <h2>Phonetics</h2>
+                <Navbar />
+                <h2>Vocabulary</h2>
+                <Navbar />
+                <h2>Verb Tenses</h2>
+                <Navbar />
+            </div>
         </header>
     )
 }
