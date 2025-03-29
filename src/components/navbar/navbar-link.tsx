@@ -10,8 +10,8 @@ interface NavbarLinkComponentProps {
 
 export default function NavbarLinkComponent({ text, href }: NavbarLinkComponentProps) {
     return (
-        <li>
-            <Link href={href}>{text}</Link>
+        <li className='list-disc'>
+            <Link className='font-light' href={href}>{text}</Link>
         </li>
     );
 }

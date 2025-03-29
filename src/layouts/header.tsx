@@ -1,5 +1,6 @@
 // Components
-import Navbar from '@/components/navbar/navbar-menu'
+import NavbarLink from '@/components/navbar/navbar-link'
+import NavbarMenu from '@/components/navbar/navbar-menu'
 
 // Dependencies
 import React from 'react'
@@ -15,20 +16,25 @@ export default function HeaderLayout() {
             </h1>
             <div className='flex flex-col gap-4'>
                 <h2 className='font-medium uppercase'>Fonética</h2>
-                <Navbar>
+                <NavbarMenu>
                     <>
+                        <NavbarLink href='' text='Alfabeto fonético' />
                     </>
-                </Navbar>
+                </NavbarMenu>
                 <h2 className='font-medium uppercase'>Vocabulario</h2>
-                <Navbar>
+                <NavbarMenu>
                     <>
+                        <NavbarLink href='' text='Alfabeto fonético' />
                     </>
-                </Navbar>
+                </NavbarMenu>
                 <h2 className='font-medium uppercase'>Tiempos Verbales</h2>
-                <Navbar>
+                <NavbarMenu>
                     <>
+                        <NavbarLink href='' text='Presente' />
+                        <NavbarLink href='' text='Pasado' />
+                        <NavbarLink href='' text='Alfabeto fonético' />
                     </>
-                </Navbar>
+                </NavbarMenu>
             </div>
         </header>
     )
