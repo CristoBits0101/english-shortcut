@@ -36,23 +36,23 @@ export default function HeaderLayout() {
                 <NavbarArticle title='Tiempos verbales'>
                     <NavbarDetails subtitle='Presente'>
                         <NavbarMenu>
-                            <NavbarLink href='' mt text='' />
-                            <NavbarLink href='' mt={false} text='' />
-                            <NavbarLink href='' mt={false} text='' />
+                            <NavbarLink href='' mt text='Afirmativo' />
+                            <NavbarLink href='' mt={false} text='Negativo' />
+                            <NavbarLink href='' mt={false} text='Interrogativo' />
                         </NavbarMenu>
                     </NavbarDetails>
                     <NavbarDetails subtitle='Pasado'>
                         <NavbarMenu>
-                            <NavbarLink href='' mt text='' />
-                            <NavbarLink href='' mt={false} text='' />
-                            <NavbarLink href='' mt={false} text='' />
+                            <NavbarLink href='' mt text='Afirmativo' />
+                            <NavbarLink href='' mt={false} text='Negativo' />
+                            <NavbarLink href='' mt={false} text='Interrogativo' />
                         </NavbarMenu>
                     </NavbarDetails>
                     <NavbarDetails subtitle='Futuro'>
                         <NavbarMenu>
-                            <NavbarLink href='' mt text='' />
-                            <NavbarLink href='' mt={false} text='' />
-                            <NavbarLink href='' mt={false} text='' />
+                            <NavbarLink href='' mt text='Afirmativo' />
+                            <NavbarLink href='' mt={false} text='Negativo' />
+                            <NavbarLink href='' mt={false} text='Interrogativo' />
                         </NavbarMenu>
                     </NavbarDetails>
                 </NavbarArticle>
