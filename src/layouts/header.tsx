@@ -28,6 +28,12 @@ export default function HeaderLayout() {
                             <NavbarLink href='' mt={false} text='' />
                         </NavbarMenu>
                     </NavbarDetails>
+                    <NavbarDetails subtitle='Tablas'>
+                        <NavbarMenu>
+                            <NavbarLink href='' mt text='Abecedario' />
+                            <NavbarLink href='' mt={false} text='IPA' />
+                        </NavbarMenu>
+                    </NavbarDetails>
                 </NavbarArticle>
 
                 {/* Vocabulario */}
@@ -81,6 +87,12 @@ export default function HeaderLayout() {
                         <NavbarMenu>
                             <NavbarLink href='' mt text='Acuerdo' />
                             <NavbarLink href='' mt={false} text='Desacuerdo' />
+                        </NavbarMenu>
+                    </NavbarDetails>
+                    <NavbarDetails subtitle='Preguntas'>
+                        <NavbarMenu>
+                            <NavbarLink href='' mt text='Ayuda' />
+                            <NavbarLink href='' mt={false} text='Emociones' />
                         </NavbarMenu>
                     </NavbarDetails>
                 </NavbarArticle>
