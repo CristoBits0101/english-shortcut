@@ -14,11 +14,11 @@ export default function HeaderLayout() {
                 English Shortcut
             </h1>
             <div className='flex flex-col gap-4'>
-                <h2 className='font-medium'>Fonética</h2>
+                <h2 className='font-medium uppercase'>Fonética</h2>
                 <Navbar />
-                <h2 className='font-medium'>Vocabulario</h2>
+                <h2 className='font-medium uppercase'>Vocabulario</h2>
                 <Navbar />
-                <h2 className='font-medium'>Tiempos Verbales</h2>
+                <h2 className='font-medium uppercase'>Tiempos Verbales</h2>
                 <Navbar />
             </div>
         </header>

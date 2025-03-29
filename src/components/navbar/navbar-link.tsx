@@ -1,7 +1,17 @@
+// Dependencies
+import Link from 'next/link'
 import React from 'react'
 
-export default function NavbarItemComponent() {
+// Props interface
+interface NavbarItemComponentProps {
+    href: string;
+    text: string;
+}
+
+export default function NavbarItemComponent({ text, href }: NavbarItemComponentProps) {
     return (
-        <div>navbar-item</div>
-    )
+        <li>
+            <Link href={href}>{text}</Link>
+        </li>
+    );
 }
