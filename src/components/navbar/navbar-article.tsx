@@ -12,6 +12,6 @@ export default function NavbarArticleComponent({ children, title }: NavbarArticl
         <article className='flex flex-col gap-8'>
             <h2 className='font-medium uppercase'>{title}</h2>
             {children}
-        </article>
+        </article >
     )
 }

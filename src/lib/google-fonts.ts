@@ -1,7 +1,7 @@
 // Fonts
 import { Dancing_Script } from 'next/font/google'
 import { Figtree } from 'next/font/google'
-import { Shadows_Into_Light } from 'next/font/google'
+import { Delius } from 'next/font/google'
 
 // Settings
 export const dancingScript = Dancing_Script({
@@ -16,7 +16,7 @@ export const figtree = Figtree({
   weight: ['400', '500', '700']
 })
 
-export const shadowsIntoLight = Shadows_Into_Light({
+export const delius = Delius({
   display: 'swap',
   subsets: ['latin'],
   weight: ['400']
