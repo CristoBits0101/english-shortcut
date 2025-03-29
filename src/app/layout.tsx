@@ -6,7 +6,7 @@ import MainLayout from "@/layouts/main";
 import { figtree } from "@/lib/google-fonts";
 
 // Styles
-import "@/app/globals.css";
+import "@/styles/globals.css";
 
 // Types
 import type { Metadata } from "next";
