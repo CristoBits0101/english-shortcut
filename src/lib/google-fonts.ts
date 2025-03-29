@@ -1,9 +1,9 @@
-// Font libraries
+// Fonts
 import { Dancing_Script } from 'next/font/google'
 import { Figtree } from 'next/font/google'
 import { Shadows_Into_Light } from 'next/font/google'
 
-// Configure fonts
+// Settings
 export const dancingScript = Dancing_Script({
   display: 'swap',
   subsets: ['latin'],
