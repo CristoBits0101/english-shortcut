@@ -10,13 +10,16 @@ import { dancingScript } from "@/lib/google-fonts";
 export default function HeaderLayout() {
     return (
         <header className='h-full p-4 flex flex-col gap-8'>
+
             {/* Title */}
             <h1 className={`flex gap-2 ${dancingScript.className} text-4xl font-medium`}>
                 <span className='text-[#C8102E]'>English</span>
                 <span className='text-[#00247D]'>Shortcut</span>
             </h1>
+
             {/* Navigation */}
             <section className='flex flex-col gap-4'>
+
                 {/* Phonetics */}
                 <NavbarArticle title='Fonética'>
                     <NavbarDetails subtitle='Sonidos'>
@@ -26,6 +29,7 @@ export default function HeaderLayout() {
                         </NavbarMenu>
                     </NavbarDetails>
                 </NavbarArticle>
+
                 {/* Vocabulario */}
                 <NavbarArticle title='Vocabulario'>
                     <NavbarDetails subtitle='Imprescindible'>
@@ -39,7 +43,8 @@ export default function HeaderLayout() {
                         </NavbarMenu>
                     </NavbarDetails>
                 </NavbarArticle>
-                {/* verb tenses */}
+
+                {/* Verb tenses */}
                 <NavbarArticle title='Tiempos verbales'>
                     <NavbarDetails subtitle='Presente'>
                         <NavbarMenu>
@@ -60,6 +65,22 @@ export default function HeaderLayout() {
                             <NavbarLink href='' mt text='Afirmativo' />
                             <NavbarLink href='' mt={false} text='Negativo' />
                             <NavbarLink href='' mt={false} text='Interrogativo' />
+                        </NavbarMenu>
+                    </NavbarDetails>
+                </NavbarArticle>
+
+                {/* Everyday phrases */}
+                <NavbarArticle title='Frases cotidianas'>
+                    <NavbarDetails subtitle='Cortesía'>
+                        <NavbarMenu>
+                            <NavbarLink href='' mt text='Saludos' />
+                            <NavbarLink href='' mt={false} text='Despedidas' />
+                        </NavbarMenu>
+                    </NavbarDetails>
+                    <NavbarDetails subtitle='Expresiones'>
+                        <NavbarMenu>
+                            <NavbarLink href='' mt text='Acuerdo' />
+                            <NavbarLink href='' mt={false} text='Desacuerdo' />
                         </NavbarMenu>
                     </NavbarDetails>
                 </NavbarArticle>
