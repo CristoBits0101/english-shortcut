@@ -33,8 +33,8 @@ export default function HeaderLayout() {
                         </NavbarMenu>
                     </NavbarDetails>
                 </NavbarArticle>
-                {/*  */}
-                <NavbarArticle title='Verb tenses'>
+                {/* verb tenses */}
+                <NavbarArticle title='Tiempos verbales'>
                     <NavbarDetails subtitle='Presente'>
                         <NavbarMenu>
                             <NavbarLink href='' mt text='Afirmativo' />
