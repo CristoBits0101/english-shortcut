@@ -26,7 +26,7 @@ export default function RootLayout({
       <body
         className={`${figtree.className} antialiased w-full h-full`}
       >
-        <div className="w-3/4 h-full m-auto p-4 grid grid-cols-[1fr,3fr]">
+        <div className="w-3/4 h-full mx-auto p-4 grid grid-cols-[25%_75%]">
           <HeaderLayout />
           <MainLayout>
             {children}

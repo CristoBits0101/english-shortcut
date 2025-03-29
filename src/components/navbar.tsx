@@ -1,7 +1,10 @@
+// Dependencies
 import React from 'react'
 
 export default function NavbarComponent() {
     return (
-        <div>navbar</div>
+        <nav>
+            <h2>Navbar</h2>
+        </nav>
     )
 }
