@@ -9,7 +9,7 @@ interface NavbarArticleComponentProps {
 
 export default function NavbarArticleComponent({ children, title }: NavbarArticleComponentProps) {
     return (
-        <article className='flex flex-col gap-4'>
+        <article className='flex flex-col gap-8'>
             <h2 className='font-medium uppercase'>{title}</h2>
             {children}
         </article>

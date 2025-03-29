@@ -11,7 +11,7 @@ interface NavbarLinkComponentProps {
 export default function NavbarLinkComponent({ href, mt, text }: NavbarLinkComponentProps) {
     return (
         <li className={`${mt ? 'mt-4' : ''} list-disc`}>
-            <Link className='font-light' href={href}>{text}</Link>
+            <Link className='font-extralight' href={href}>{text}</Link>
         </li>
     );
 }

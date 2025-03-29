@@ -10,7 +10,7 @@ interface NavbarDetailsComponentProps {
 export default function NavbarDetailsComponent({ children, subtitle }: NavbarDetailsComponentProps) {
     return (
         <details className='w-full'>
-            <summary className='w-full ml-4'>{subtitle}</summary>
+            <summary className='w-full ml-4 font-extralight'>{subtitle}</summary>
             {children}
         </details>
     )

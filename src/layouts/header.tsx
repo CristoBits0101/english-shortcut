@@ -9,7 +9,7 @@ import { dancingScript } from "@/lib/google-fonts";
 
 export default function HeaderLayout() {
     return (
-        <header className='h-full p-4 flex flex-col gap-8'>
+        <header className='h-full p-4 flex flex-col gap-16'>
 
             {/* Title */}
             <h1 className={`flex gap-2 ${dancingScript.className} text-4xl font-medium`}>
@@ -18,26 +18,28 @@ export default function HeaderLayout() {
             </h1>
 
             {/* Navigation */}
-            <section className='flex flex-col gap-4'>
+            <section className='flex flex-col gap-8'>
 
                 {/* Phonetics */}
                 <NavbarArticle title='Fonética'>
-                    <NavbarDetails subtitle='Sonidos'>
-                        <NavbarMenu>
-                            <NavbarLink href='' mt text='' />
-                            <NavbarLink href='' mt={false} text='' />
-                        </NavbarMenu>
-                    </NavbarDetails>
-                    <NavbarDetails subtitle='Tablas'>
-                        <NavbarMenu>
-                            <NavbarLink href='' mt text='Abecedario' />
-                            <NavbarLink href='' mt={false} text='IPA' />
-                        </NavbarMenu>
-                    </NavbarDetails>
+                    <div className='flex flex-col gap-2'>
+                        <NavbarDetails subtitle='Sonidos'>
+                            <NavbarMenu>
+                                <NavbarLink href='' mt text='' />
+                                <NavbarLink href='' mt={false} text='' />
+                            </NavbarMenu>
+                        </NavbarDetails>
+                        <NavbarDetails subtitle='Tablas'>
+                            <NavbarMenu>
+                                <NavbarLink href='' mt text='Abecedario' />
+                                <NavbarLink href='' mt={false} text='IPA' />
+                            </NavbarMenu>
+                        </NavbarDetails>
+                    </div>
                 </NavbarArticle>
 
                 {/* Vocabulario */}
-                <NavbarArticle title='Vocabulario'>
+                <NavbarArticle title='Vocabulario imprescindible'>
                     <NavbarDetails subtitle='Imprescindible'>
                         <NavbarMenu>
                             <NavbarLink href='' mt text='Adjetivos' />
@@ -52,49 +54,53 @@ export default function HeaderLayout() {
 
                 {/* Verb tenses */}
                 <NavbarArticle title='Tiempos verbales'>
-                    <NavbarDetails subtitle='Presente'>
-                        <NavbarMenu>
-                            <NavbarLink href='' mt text='Afirmativo' />
-                            <NavbarLink href='' mt={false} text='Negativo' />
-                            <NavbarLink href='' mt={false} text='Interrogativo' />
-                        </NavbarMenu>
-                    </NavbarDetails>
-                    <NavbarDetails subtitle='Pasado'>
-                        <NavbarMenu>
-                            <NavbarLink href='' mt text='Afirmativo' />
-                            <NavbarLink href='' mt={false} text='Negativo' />
-                            <NavbarLink href='' mt={false} text='Interrogativo' />
-                        </NavbarMenu>
-                    </NavbarDetails>
-                    <NavbarDetails subtitle='Futuro'>
-                        <NavbarMenu>
-                            <NavbarLink href='' mt text='Afirmativo' />
-                            <NavbarLink href='' mt={false} text='Negativo' />
-                            <NavbarLink href='' mt={false} text='Interrogativo' />
-                        </NavbarMenu>
-                    </NavbarDetails>
+                    <div className='flex flex-col gap-2'>
+                        <NavbarDetails subtitle='Presente'>
+                            <NavbarMenu>
+                                <NavbarLink href='' mt text='Afirmativo' />
+                                <NavbarLink href='' mt={false} text='Negativo' />
+                                <NavbarLink href='' mt={false} text='Interrogativo' />
+                            </NavbarMenu>
+                        </NavbarDetails>
+                        <NavbarDetails subtitle='Pasado'>
+                            <NavbarMenu>
+                                <NavbarLink href='' mt text='Afirmativo' />
+                                <NavbarLink href='' mt={false} text='Negativo' />
+                                <NavbarLink href='' mt={false} text='Interrogativo' />
+                            </NavbarMenu>
+                        </NavbarDetails>
+                        <NavbarDetails subtitle='Futuro'>
+                            <NavbarMenu>
+                                <NavbarLink href='' mt text='Afirmativo' />
+                                <NavbarLink href='' mt={false} text='Negativo' />
+                                <NavbarLink href='' mt={false} text='Interrogativo' />
+                            </NavbarMenu>
+                        </NavbarDetails>
+                    </div>
                 </NavbarArticle>
 
                 {/* Everyday phrases */}
                 <NavbarArticle title='Frases cotidianas'>
-                    <NavbarDetails subtitle='Cortesía'>
-                        <NavbarMenu>
-                            <NavbarLink href='' mt text='Saludos' />
-                            <NavbarLink href='' mt={false} text='Despedidas' />
-                        </NavbarMenu>
-                    </NavbarDetails>
-                    <NavbarDetails subtitle='Expresiones'>
-                        <NavbarMenu>
-                            <NavbarLink href='' mt text='Acuerdo' />
-                            <NavbarLink href='' mt={false} text='Desacuerdo' />
-                        </NavbarMenu>
-                    </NavbarDetails>
-                    <NavbarDetails subtitle='Preguntas'>
-                        <NavbarMenu>
-                            <NavbarLink href='' mt text='Ayuda' />
-                            <NavbarLink href='' mt={false} text='Emociones' />
-                        </NavbarMenu>
-                    </NavbarDetails>
+                    <div className='flex flex-col gap-2'>
+                        <NavbarDetails subtitle='Cortesía'>
+                            <NavbarMenu>
+                                <NavbarLink href='' mt text='Saludos' />
+                                <NavbarLink href='' mt={false} text='Despedidas' />
+                            </NavbarMenu>
+                        </NavbarDetails>
+                        <NavbarDetails subtitle='Expresiones'>
+                            <NavbarMenu>
+                                <NavbarLink href='' mt text='Acuerdo' />
+                                <NavbarLink href='' mt={false} text='Desacuerdo' />
+                            </NavbarMenu>
+                        </NavbarDetails>
+                        <NavbarDetails subtitle='Preguntas'>
+                            <NavbarMenu>
+                                <NavbarLink href='' mt text='Ayuda' />
+                                <NavbarLink href='' mt={false} text='Emociones' />
+                            </NavbarMenu>
+                        </NavbarDetails>
+                    </div>
                 </NavbarArticle>
             </section>
         </header>
