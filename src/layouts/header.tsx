@@ -41,9 +41,20 @@ export default function HeaderLayout() {
                             <NavbarLink href='' mt={false} text='' />
                         </NavbarMenu>
                     </NavbarDetails>
-                    <NavbarLink href='' mt={false} text='Presente' />
-                    <NavbarLink href='' mt={false} text='Pasado' />
-                    <NavbarLink href='' mt={false} text='Futuro' />
+                    <NavbarDetails subtitle='Pasado'>
+                        <NavbarMenu>
+                            <NavbarLink href='' mt text='' />
+                            <NavbarLink href='' mt={false} text='' />
+                            <NavbarLink href='' mt={false} text='' />
+                        </NavbarMenu>
+                    </NavbarDetails>
+                    <NavbarDetails subtitle='Futuro'>
+                        <NavbarMenu>
+                            <NavbarLink href='' mt text='' />
+                            <NavbarLink href='' mt={false} text='' />
+                            <NavbarLink href='' mt={false} text='' />
+                        </NavbarMenu>
+                    </NavbarDetails>
                 </NavbarArticle>
             </section>
         </header>
